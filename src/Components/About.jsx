@@ -49,7 +49,7 @@ const About = () => {
             </div>
           </div>
           <div className="mb-6">
-            <span className="text-[#f7b731] font-semibold text-lg">1- Project complete</span>
+            <span className="text-[#f7b731] font-semibold text-lg">10 Project complete</span>
           </div>
           <a
             href="#"

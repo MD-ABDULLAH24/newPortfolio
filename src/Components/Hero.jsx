@@ -37,7 +37,7 @@ const Hero = () => {
     return (
         <section
             id="hero"
-            className="bg-black text-white min-h-screen flex items-center justify-center pb-16"
+            className="bg-black pt-6 text-white min-h-screen flex items-center justify-center pb-16"
         >
             <div className="max-w-[1200px] mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-10 px-6">
                 {/* Left Side */}
@@ -68,11 +68,11 @@ const Hero = () => {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className=" flex items-center justify-center">
+                <div className="flex-1 min-w-[320px] flex items-center justify-center">
                     <img
                         src={myimg}
                         alt="profile"
-                        className="w-[650px] h-[650px] object-cover rounded-xl shadow-2xl"
+                        className="w-[350px] h-[350px] md:w-[550px] md:h-[550px] object-cover rounded-xl shadow-2xl"
                     />
                 </div>
             </div>
