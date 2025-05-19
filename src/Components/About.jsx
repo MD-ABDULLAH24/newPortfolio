@@ -33,7 +33,7 @@ const About = () => {
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Address:</span>
-              <span className="text-gray-200">Ecb Chattar Dhaka Bangladesh</span>
+              <span className="text-gray-200">Dhaka Bangladesh</span>
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Zip code:</span>
