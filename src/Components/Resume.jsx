@@ -2,16 +2,16 @@ import React from "react";
 
 const education = [
   {
-    year: "2015 - 2019",
-    degree: "B.Sc. in Computer Science",
-    institution: "University of California",
-    details: "Graduated with Honors. Specialized in Fullstack Development.",
+    year: "2024 - 2025",
+    degree: "fontend Web developer",
+    institution: "Creative IT Institute",
+    details: "forntend web development course completed",
   },
   {
-    year: "2013 - 2015",
+    year: "2019 - 2021",
     degree: "Higher Secondary Certificate",
-    institution: "California High School",
-    details: "Science Major. GPA: 5.00/5.00",
+    institution: "Manikdi islamia senior madrasah",
+    details: "Arts Major. GPA: 5.00/5.00",
   },
 ];
 

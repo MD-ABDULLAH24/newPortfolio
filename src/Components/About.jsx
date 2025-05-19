@@ -25,31 +25,31 @@ const About = () => {
           <div className="mb-6">
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Name:</span>
-              <span className="text-gray-200">Shasika Shehan</span>
+              <span className="text-gray-200">Abdullah mamun</span>
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Date of birth:</span>
-              <span className="text-gray-200">January 01, 1987</span>
+              <span className="text-gray-200">January 19, 2002</span>
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Address:</span>
-              <span className="text-gray-200">San Francisco CA 97987 USA</span>
+              <span className="text-gray-200">Ecb Chattar Dhaka Bangladesh</span>
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Zip code:</span>
-              <span className="text-gray-200">1000</span>
+              <span className="text-gray-200">1206</span>
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Email:</span>
-              <span className="text-gray-200">clarkthomp@gmail.com</span>
+              <span className="text-gray-200">web.abdullah20@gmail.com</span>
             </div>
             <div className="flex mb-2">
               <span className="w-32 font-semibold text-gray-400">Phone:</span>
-              <span className="text-gray-200">+1-2234-5678-9-0</span>
+              <span className="text-gray-200">01903530401</span>
             </div>
           </div>
           <div className="mb-6">
-            <span className="text-[#f7b731] font-semibold text-lg">73 Project complete</span>
+            <span className="text-[#f7b731] font-semibold text-lg">1- Project complete</span>
           </div>
           <a
             href="#"
