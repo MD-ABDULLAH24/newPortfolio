@@ -1,22 +1,24 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import projectImg from "../assets/image.png";
+import projectimg_2 from "../assets/image-2.png"
 
 const projects = [
   {
     title: "Portfolio Website",
     desc: "A modern personal portfolio website built with React and Tailwind CSS.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
-    tags: ["React", "Tailwind", "Responsive"],
+    image: projectImg,
+    github: "https://github.com/MD-ABDULLAH24/Portfolio.git",
+    demo: "https://portfolio-dves.vercel.app/",
+    tags: ["NextJs", "Tailwind", "Responsive"],
   },
   {
     title: "E-commerce Store",
     desc: "A full-featured e-commerce web app with product search, cart, and checkout.",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
-    github: "https://github.com/yourusername/ecommerce",
-    demo: "https://yourecommerce.com",
-    tags: ["React", "Redux", "next.js"],
+    image: projectimg_2,
+    github: "https://github.com/MD-ABDULLAH24/E-commers.web.git",
+    demo: "https://e-commers-web-cr.vercel.app/",
+    tags: ["React", "Redux", "Zustand"],
   },
   {
     title: "Blog Platform",
