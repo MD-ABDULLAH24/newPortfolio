@@ -1,0 +1,84 @@
+import React from "react";
+
+const education = [
+  {
+    year: "2015 - 2019",
+    degree: "B.Sc. in Computer Science",
+    institution: "University of California",
+    details: "Graduated with Honors. Specialized in Fullstack Development.",
+  },
+  {
+    year: "2013 - 2015",
+    degree: "Higher Secondary Certificate",
+    institution: "California High School",
+    details: "Science Major. GPA: 5.00/5.00",
+  },
+];
+
+const experience = [
+  {
+    year: "2022 ",
+    role: "Fullstack Developer",
+    company: "Tech Solutions Ltd.",
+    details: "Leading a team of developers to build scalable web applications using React",
+  },
+  {
+    year: "2019 - 2022",
+    role: "Frontend Developer",
+    company: "Creative Agency",
+    details: "Worked on UI/UX and frontend development with React, Tailwind CSS, and Figma.",
+  },
+];
+
+const Resume = () => {
+  return (
+    <section id="resume" className="bg-black text-white py-20">
+      <div className="max-w-5xl mx-auto px-4">
+        <h2 className="text-4xl font-bold text-center mb-2">Resume</h2>
+        <p className="text-gray-400 text-center mb-12">
+          My Education & Experience
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {/* Education */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-[#f7b731]">Education</h3>
+            <div className="flex flex-col gap-8">
+              {education.map((edu, idx) => (
+                <div key={idx} className="bg-[#181818] rounded-lg p-6 border-l-4 border-[#f7b731] shadow">
+                  <span className="text-[#f7b731] font-semibold">{edu.year}</span>
+                  <h4 className="text-xl font-bold mt-2">{edu.degree}</h4>
+                  <p className="text-gray-300">{edu.institution}</p>
+                  <p className="text-gray-400 text-sm mt-2">{edu.details}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* Experience */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-[#f7b731]">Experience</h3>
+            <div className="flex flex-col gap-8">
+              {experience.map((exp, idx) => (
+                <div key={idx} className="bg-[#181818] rounded-lg p-[14px] border-l-4 border-[#f7b731] shadow">
+                  <span className="text-[#f7b731] font-semibold">{exp.year}</span>
+                  <h4 className="text-xl font-bold mt-2">{exp.role}</h4>
+                  <p className="text-gray-300">{exp.company}</p>
+                  <p className="text-gray-400 text-sm mt-2">{exp.details}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center mt-12">
+          <a
+            href="#"
+            className="bg-[#f7b731] text-black font-semibold rounded-full px-8 py-3 hover:bg-yellow-400 transition"
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Resume;
