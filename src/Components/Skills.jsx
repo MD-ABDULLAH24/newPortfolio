@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 
 const skills = [
-  { name: "React", value: 90 },
   { name: "HTML5", value: 95 },
-  { name: "NextJs", value: 70 },
-  { name: "JavaScript", value: 85 },
   { name: "CSS3", value: 90 },
+  { name: "JavaScript", value: 85 },
   { name: "Tailwind", value: 80 },
+  { name: "React", value: 90 },
+  { name: "NextJs", value: 70 },
 ];
 
 const AnimatedSkill = ({ name, value }) => {

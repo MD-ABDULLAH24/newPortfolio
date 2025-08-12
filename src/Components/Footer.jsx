@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-4 text-xl">
             <a
-              href="https://github.com/"
+              href="https://github.com/MD-ABDULLAH24"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#f7b731] transition"
@@ -24,7 +24,7 @@ const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/abdullah2020/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#f7b731] transition"

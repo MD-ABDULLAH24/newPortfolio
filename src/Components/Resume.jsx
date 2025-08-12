@@ -16,17 +16,19 @@ const education = [
 ];
 
 const experience = [
-  {
-    year: "2022 ",
-    role: "Fullstack Developer",
-    company: "Tech Solutions Ltd.",
-    details: "Leading a team of developers to build scalable web applications using React",
+   {
+    year: "2024 - 2025",
+    role: "Self-Learning & Problem Solving",
+    company: "Personal Development",
+    details:
+      "Solved 40-50 coding problems to improve problem-solving and logical thinking skills.",
   },
   {
-    year: "2019 - 2022",
-    role: "Frontend Developer",
-    company: "Creative Agency",
-    details: "Worked on UI/UX and frontend development with React, Tailwind CSS, and Figma.",
+    year: "2024 / 2025",
+    role: "Personal Projects",
+    company: "Self-Initiated",
+    details:
+      "Built small React applications to implement concepts and improve frontend skills.",
   },
 ];
 
@@ -69,8 +71,9 @@ const Resume = () => {
           </div>
         </div>
         <div className="flex justify-center mt-12">
+          
           <a
-            href="#"
+            href="/my_cv.pdf"
             className="bg-[#f7b731] text-black font-semibold rounded-full px-8 py-3 hover:bg-yellow-400 transition"
           >
             Download CV

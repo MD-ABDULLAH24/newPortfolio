@@ -21,13 +21,14 @@ const projects = [
     tags: ["React", "Redux", "Zustand"],
   },
   {
-    title: "Blog Platform",
-    desc: "A multi-user blog platform with markdown support and comments.",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
-    github: "https://github.com/yourusername/blog",
-    demo: "https://yourblog.com",
-    tags: ["React", "tailwind", "next.js"],
+    title: "Portfolio Website",
+    desc: "A modern personal portfolio website built with React and Tailwind CSS.",
+    image: projectImg,
+    github: "https://github.com/MD-ABDULLAH24/Portfolio.git",
+    demo: "https://portfolio-dves.vercel.app/",
+    tags: ["NextJs", "Tailwind", "Responsive"],
   },
+ 
 ];
 
 const Projects = () => {
