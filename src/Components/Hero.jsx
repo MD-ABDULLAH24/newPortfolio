@@ -39,10 +39,10 @@ const Hero = () => {
             id="hero"
             className="bg-black pt-6 text-white h-[700px] md:h-[750px] flex items-center justify-center "
         >
-            <div className="max-w-[1200px]   w-full flex flex-col md:flex-row md:items-center justify-between gap-10 md:px-6 px-4">
+            <div className="max-w-[1200px]   w-full flex flex-col md:flex-row md:items-center justify-between gap-10 md:px-6 px-5">
                 {/* Left Side */}
                 <div className="flex-1  min-w-[420px] ml-0 md:ml-5">
-                    <p className="text-yellow-400 tracking-widest text-xs md:text-lg mb-2">HELLO!</p>
+                    <p className="text-yellow-400 tracking-widest text-lg md:text-lg mb-2">HELLO!</p>
                     <h1 className="text-4xl md:text-[60px] font-bold leading-tight mb-2">
                         I'm <span className="text-white">Abdullah</span><br />
                         <span className="text-yellow-400">Mamun</span>
@@ -72,7 +72,7 @@ const Hero = () => {
                     <img
                         src={myimg}
                         alt="profile"
-                        className="w-[350px] h-[350px] md:w-[450px] md:h-[450px] object-cover ml-0 md:ml-25"
+                        className="w-[350px] h-[350px] md:w-[450px] md:h-[450px] object-cover mr-20 md:mr-0 md:ml-25"
                     />
                 </div>
             </div>
