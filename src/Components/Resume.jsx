@@ -21,7 +21,7 @@ const experience = [
     role: "Self-Learning & Problem Solving",
     company: "Personal Development",
     details:
-      "Solved 40-50 coding problems to improve problem-solving and logical thinking skills.",
+      "Solved 50+ coding problems to improve problem-solving and logical thinking skills.",
   },
   {
     year: "2024 / 2025",
