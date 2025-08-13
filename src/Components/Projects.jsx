@@ -2,6 +2,7 @@ import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import projectImg from "../assets/image.png";
 import projectimg_2 from "../assets/image-2.png"
+import projectimg_3 from "../assets/softwareCompany.png"
 
 const projects = [
   {
@@ -21,11 +22,11 @@ const projects = [
     tags: ["React", "Redux", "Zustand"],
   },
   {
-    title: "Portfolio Website",
-    desc: "A modern personal portfolio website built with React and Tailwind CSS.",
-    image: projectImg,
-    github: "https://github.com/MD-ABDULLAH24/Portfolio.git",
-    demo: "https://portfolio-dves.vercel.app/",
+    title: "Software Company",
+    desc: "A modern Software Company website built with React and Tailwind CSS.",
+    image: projectimg_3,
+    github: "https://github.com/MD-ABDULLAH24/Software-Chamber.git",
+    demo: "https://software-chamber-chi.vercel.app/",
     tags: ["NextJs", "Tailwind", "Responsive"],
   },
  
