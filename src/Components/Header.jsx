@@ -32,12 +32,11 @@ const Header = () => {
   }, []);
 
   const handleClick = (href, e) => {
-    e.preventDefault(); // Prevent default anchor jump
+    e.preventDefault();
 
     setActive(href);
     setMenuOpen(false);
 
-    // Smooth scroll to the section
     const section = document.querySelector(href);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -46,9 +45,9 @@ const Header = () => {
 
   return (
     <header className="bg-[#121212] sticky top-0 z-50 shadow-lg">
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 md:px-10 py-5">
+      <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 md:px-10 py-5 md:py-15">
         {/* Logo */}
-        <div className="font-extrabold text-white text-3xl tracking-wide cursor-pointer hover:text-yellow-400 transition">
+        <div className="font-extrabold  text-white text-3xl md:text-5xl tracking-wide cursor-pointer hover:text-yellow-400 transition">
           <a href="#hero" onClick={(e) => handleClick("#hero", e)}>
             Abdullah
           </a>
@@ -88,14 +87,13 @@ const Header = () => {
                 <a
                   href={link.href}
                   onClick={(e) => handleClick(link.href, e)}
-                  className={`relative font-medium no-underline pb-1 transition-colors duration-300 ${
+                  className={`relative font-medium no-underline pb-1 transition-colors duration-300 text-lg md:text-xl ${
                     active === link.href
                       ? "text-yellow-400"
                       : "text-gray-300 hover:text-yellow-400"
                   }`}
                 >
                   {link.label}
-                  {/* Underline animation */}
                   <span
                     className={`absolute left-0 -bottom-1 h-[2px] w-full bg-yellow-400 transition-all duration-300 ${
                       active === link.href ? "scale-x-100" : "scale-x-0"
@@ -117,7 +115,7 @@ const Header = () => {
                 <a
                   href={link.href}
                   onClick={(e) => handleClick(link.href, e)}
-                  className={`block font-medium no-underline pb-1 border-b-2 transition-colors duration-300 ${
+                  className={`block font-medium no-underline pb-1 border-b-2 transition-colors duration-300 text-lg ${
                     active === link.href
                       ? "text-yellow-400 border-yellow-400"
                       : "text-gray-300 border-transparent hover:text-yellow-400 hover:border-yellow-400"
